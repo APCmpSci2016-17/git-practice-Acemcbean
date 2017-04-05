@@ -1,0 +1,14 @@
+git checkout master
+- sets branch to master
+git branch -d develop newfeature
+- deletes all the other branches
+git push origin :develop :newfeature
+- deletes the branches from the repo
+git tag -d V0.1
+- deletes files with the V0.1 tag
+git push origin :V0.1
+- deletes files from the repo with the V0.1 tag
+git reset --hard <last commit ID>
+- idk. magic
+git push -force
+- bad things
